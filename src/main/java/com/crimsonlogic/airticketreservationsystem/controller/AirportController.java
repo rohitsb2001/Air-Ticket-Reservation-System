@@ -16,8 +16,8 @@ import com.crimsonlogic.airticketreservationsystem.entity.Airport;
 import com.crimsonlogic.airticketreservationsystem.exception.RecordAlreadyPresentException;
 import com.crimsonlogic.airticketreservationsystem.exception.RecordNotFoundException;
 import com.crimsonlogic.airticketreservationsystem.service.AirportService;
-
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/airport")
 public class AirportController {
 	@Autowired(required = true)

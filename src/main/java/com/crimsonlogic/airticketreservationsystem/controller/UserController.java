@@ -4,6 +4,7 @@ import java.math.BigInteger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +21,7 @@ import com.crimsonlogic.airticketreservationsystem.exception.RecordNotFoundExcep
 import com.crimsonlogic.airticketreservationsystem.service.UserService;
 
 
-
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/user")
 public class UserController {

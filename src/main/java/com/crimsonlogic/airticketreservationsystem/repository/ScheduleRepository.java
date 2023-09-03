@@ -11,3 +11,4 @@ import com.crimsonlogic.airticketreservationsystem.entity.Schedule;
 public interface ScheduleRepository extends JpaRepository<Schedule, BigInteger> {
 
 }
+//

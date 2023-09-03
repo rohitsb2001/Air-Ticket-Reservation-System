@@ -12,3 +12,4 @@ import com.crimsonlogic.airticketreservationsystem.entity.Flight;
 public interface FlightRepository extends JpaRepository<Flight,BigInteger>{
 
 }
+//

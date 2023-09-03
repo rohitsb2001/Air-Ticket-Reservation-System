@@ -32,11 +32,13 @@ public class ScheduledFlight {
 	public ScheduledFlight() {
 		// TODO Auto-generated constructor stub
 	}
+	
 	public ScheduledFlight(BigInteger scheduleFlightId, Integer availableSeats) {
 		super();
 		this.scheduleFlightId = scheduleFlightId;
 		this.availableSeats = availableSeats;
 	}
+
 	public BigInteger getScheduleFlightId() {
 		return scheduleFlightId;
 	}

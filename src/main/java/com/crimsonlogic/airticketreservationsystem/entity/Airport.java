@@ -8,7 +8,10 @@ import javax.validation.constraints.Size;
 
 import com.sun.istack.NotNull;
 
+import lombok.Data;
+
 @Entity
+@Data
 public class Airport
 
 {

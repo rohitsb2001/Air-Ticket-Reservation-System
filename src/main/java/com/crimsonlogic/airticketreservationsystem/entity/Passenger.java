@@ -85,4 +85,13 @@ public class Passenger {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Passenger(BigInteger one, String passengerName2, int passengerAge2, BigInteger ten, String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Object getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

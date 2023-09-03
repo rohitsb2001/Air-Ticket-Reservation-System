@@ -9,3 +9,4 @@ import com.crimsonlogic.airticketreservationsystem.entity.Users;
 public interface UserRepository extends JpaRepository<Users, BigInteger>{
 
 }
+//
